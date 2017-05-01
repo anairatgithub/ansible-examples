@@ -2,7 +2,7 @@
 - name: "Install WordPress, MariaDB, Nginx, and PHP-FPM"
   become: true
   become_user: root
-  hosts: wordpress
+  hosts: wordpress1
   remote_user: cloud-user
   roles: 
     - common
